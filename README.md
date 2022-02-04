@@ -3,6 +3,8 @@
 <h3 align="center">LOVE69 Ren’Py Remaster Project 文档</h3>
 <h4 align="center">用实际项目带你快速上手 Galgame 汉化移植 和 Ren’Py 引擎，小白也能轻松成为程序dalao</h4>
 
+<p align="center"><img src=https://img.shields.io/github/stars/LOVE69-Renpy-Remaster-Project/Doc>  <img src=https://img.shields.io/github/forks/LOVE69-Renpy-Remaster-Project/Doc>  <img src=https://img.shields.io/github/issues/LOVE69-Renpy-Remaster-Project/Doc><a href="https://github.com/LOVE69-Renpy-Remaster-Project/Doc"><img src="https://img.shields.io/badge/%E6%96%87%E6%A1%A3-%E6%88%B3%E8%BF%99%E9%87%8C-brightgreen.svg"></a><a href="https://eatcocoa.luckykeeper.site:44443/"><img src="https://img.shields.io/badge/%E5%B0%8F%E6%B8%B8%E6%88%8F-%E6%88%B3%E8%BF%99%E9%87%8C-blue.svg"></a><a href="https://love69renpyremasterproject.github.io/"><img src="https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E7%BB%84%E5%AE%98%E7%BD%91-%E6%88%B3%E8%BF%99%E9%87%8C-brightgreen.svg"></a></p>
+
 ------
 
 # 前言
@@ -41,21 +43,15 @@
 >
 > 如果本项目帮助了你，也希望我能出现在你的感谢名单上捏
 
+- [Ren’Py 引擎](https://www.renpy.org/) ：本项目使用的引擎，开发使用版本 7.4.6
 - [Ren’Py 官方中文参考文档](https://www.renpy.cn/doc/) ：详细了解引擎特性，学习各种功能的大百科全书
-
 - [Ren’Py 中文空间](https://www.renpy.cn/forum.php/) ：非常友好的社区，想实现某个具体的功能而毫无头绪？不妨去上面康康
-
 - [“ Ren'Py 引擎从入门到放弃”系列教程](https://zhuanlan.zhihu.com/p/53084385) ：非常通俗的入门&进阶教程
-
 - [枝江往事](https://github.com/A-Soul-GameMaker-Project/ZhiJiang) ：使用 Ren’Py 非常优秀的二创作品，填坑动力之一，比本项目做出的东西要好千倍，同样也开源了，我在制作过程中在这里学到了不少东西
-
 - [CROSS † CHANNEL Chinese Localization Project](https://github.com/MewX/cross-channel_chinese-localization_project) ：非常优秀的全平台移植，我的开坑最初动力
-
 - The Expression Amrilato （ことのはアムリラート\恋语）：Ren’Py 的优秀商业化作品，学习世界语的优秀教材
-
 - [MisakaTranslator （御坂翻译器）](https://github.com/hanmin0822/MisakaTranslator) ：Galgame/文字游戏/漫画多语种实时机翻工具
-
+- [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) ：Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x, Real-ESRGAN, SRMD, RealSR, Anime4K, RIFE, CAIN, DAIN, and ACNet.（使用机器学习放大 图片/视频/GIF 以及 视频插帧(补帧)）
 - [AutoMatting](https://github.com/huanghaozi/AutoMatting) ：用Qt+OpenCV写的自动抠图的软件，使用removebg提供的api接口，可生成高清图
-
 - [Visual Studio Code](https://code.visualstudio.com/) 提供的非常好用的 IDE 工具，以及 LuqueDaniel 提供的 [Ren’Py 扩展](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy) ，以及 [TabNine](https://github.com/codota/TabNine) 的 AI 代码补全工具
 
