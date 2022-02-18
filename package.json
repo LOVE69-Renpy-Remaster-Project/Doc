@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.11"
+  },
+  "name": "Love69_Ren'Py_Remaster_Doc",
+  "version": "1.0.0",
+  "description": "Love69 Ren'Py Remaster Doc WebSite",
+  "main": "index.js",
+  "repository": "https://github.com/LOVE69-Renpy-Remaster-Project/Doc.git",
+  "author": "Luckykeeper <luckykeeper@luckykeeper.site>",
+  "license": "https://github.com/luckykeeper/LOVE69_renpy_remaster#%E5%BC%80%E6%BA%90%E5%A3%B0%E6%98%8E",
+  "scripts": {
+    "dev": "npx vuepress dev docs",
+    "build": "npx vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+
+}
+
