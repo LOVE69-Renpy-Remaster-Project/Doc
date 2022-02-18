@@ -14,8 +14,8 @@
     "build": "npx vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "@vuepress/plugin-pwa": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3"
   }
-
 }
-
