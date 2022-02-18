@@ -1,0 +1,14 @@
+- name: 同步到 LuckyServer
+on:
+  push:
+    branches:
+      - main
+      
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+        env:
+          FTP_SERVER: ipv4.luckykeeper.site:21212
+          FTP_USERNAME: love69doc_luckykeeper_site
+          FTP_PASSWORD: ${{ secrets.MIRROR_FTP_PS }}
+          LOCAL_DIR: docs/.vuepress/dist
+          REMOTE_DIR: /Doc
+          ARGS: --delete --transfer-all --exclude=logreport --verbose
