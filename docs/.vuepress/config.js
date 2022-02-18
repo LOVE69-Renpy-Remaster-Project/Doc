@@ -78,7 +78,14 @@ module.exports = {
               ],
               
             },
-            {text: '作者博客', link: 'https://luckykeeper.site', target:'_blank' ,icon:'reco-home'}
-        ]
+            {text: '作者博客', link: 'https://luckykeeper.site', target:'_blank' ,icon:'reco-home'},
+            {
+              text: '网站源' , icon:'reco-menu',
+              ariaLabel: 'Site',
+              items: [
+                { text: 'GitHub-Pages', link: 'https://love69-renpy-remaster-project.github.io/Doc/'},
+                { text: '国内镜像站（请不要在镜像站登录评论组件）', link: 'https://love69doc.luckykeeper.site:44443/Doc/'}],
+            },
+          ]
       }
 }
