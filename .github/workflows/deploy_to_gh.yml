@@ -24,5 +24,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.Token_For_Love69_Doc_Website }}
+          BASE_BRANCH: main
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
