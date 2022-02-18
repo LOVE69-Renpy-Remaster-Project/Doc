@@ -25,7 +25,7 @@ jobs:
           FTP_SERVER: ipv4.luckykeeper.site
           FTP_USERNAME: love69doc_luckykeeper_site
           FTP_PASSWORD: ${{ secrets.MIRROR_FTP_PS }}
-          port: 21212
+          # port: 21
           LOCAL_DIR: docs/.vuepress/dist
           REMOTE_DIR: /Doc
           ARGS: --delete --transfer-all --exclude=logreport --verbose
