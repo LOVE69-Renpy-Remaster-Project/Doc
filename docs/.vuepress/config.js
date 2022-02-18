@@ -34,6 +34,7 @@ module.exports = {
             repo: 'Doc',
             clientId: '1cd4ed1eb3240fb3ac49',
             clientSecret: '00fdc3435f6a1bd301ba2b6986d3343452c45b3d',
+            autoCreateIssue: true,
           },
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: 'luckykeeper/LOVE69_renpy_remaster',
