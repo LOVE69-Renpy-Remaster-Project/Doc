@@ -23,7 +23,7 @@ module.exports = {
         noFoundPageByTencent: false,
         subSidebar: 'auto',
         sidebar: {
-            '/stander/': [
+            '/standard/': [
               '',
               '目录组织'
             ],
@@ -71,7 +71,7 @@ module.exports = {
               text: '文档' , icon:'reco-document',
               ariaLabel: 'Document Menu',
               items: [
-                { text: '代码规范', link: '/stander/' , icon:'reco-document'},
+                { text: '代码规范', link: '/standard/' , icon:'reco-document'},
                 { text: '二次开发/二创', link: '/dev/' , icon:'reco-document'},
                 { text: '汉化、移植', link: '/chinese-localization/' , icon:'reco-document'},
                 { text: 'Ren’Py 实例学习', link: '/renpy/' , icon:'reco-document'}
