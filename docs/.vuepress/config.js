@@ -59,12 +59,12 @@ module.exports = {
         author: 'Luckykeeper',
         authorAvatar: '/images/header-tou.jpg',
         lastUpdated: '最后更新时间',
-        algolia: {
-            apiKey: 'd03dff9e4b29ca7c8c240f1d78b9b14b',
-            indexName: 'Love69_Doc_Website',
-            // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
-            appId: 'MO2AUWDNT8'
-        },
+        // algolia: {
+        //     apiKey: 'd03dff9e4b29ca7c8c240f1d78b9b14b',
+        //     indexName: 'Love69_Doc_Website',
+        //     // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
+        //     appId: 'MO2AUWDNT8'
+        // },
         nav: [
             {
               text: '文档' , icon:'reco-document',
