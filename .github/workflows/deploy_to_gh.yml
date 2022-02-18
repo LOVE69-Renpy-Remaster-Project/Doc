@@ -23,5 +23,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.Token_For_Love69_Doc_Website }}
-          REPOSITORY_NAME: LOVE69-Renpy-Remaster-Project/Doc
           BRANCH: gh-pages
+          FOLDER: docs/.vuepress/dist
