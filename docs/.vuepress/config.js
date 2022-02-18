@@ -2,6 +2,7 @@ module.exports = {
     title: 'Love69 Ren’Py Remaster Project Doc Website',
     description: 'Love69 Ren’Py Remaster Project Documentation,Love69 Ren’Py Remaster Project 文档',
     theme: 'reco',
+    base: '/Doc/',
     head: [
     ['link', { rel: 'icon', href: '/images/项目组logo_smallsize.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
