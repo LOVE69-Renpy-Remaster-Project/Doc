@@ -22,9 +22,10 @@ jobs:
       - name: 上传到 LuckyServer
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         env:
-          FTP_SERVER: ipv4.luckykeeper.site:21212
+          FTP_SERVER: ipv4.luckykeeper.site
           FTP_USERNAME: love69doc_luckykeeper_site
           FTP_PASSWORD: ${{ secrets.MIRROR_FTP_PS }}
+          port: 21212
           LOCAL_DIR: docs/.vuepress/dist
           REMOTE_DIR: /Doc
           ARGS: --delete --transfer-all --exclude=logreport --verbose
