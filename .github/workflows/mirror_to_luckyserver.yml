@@ -1,5 +1,25 @@
-- name: 同步到 LuckyServer
+name: 同步到 LuckyServer
+on:
+  push:
+    branches:
+      - main
 
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: install
+        run: yarn install 
+
+      - name: Build
+        run:  yarn build
+
+      - name: 上传到 LuckyServer
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         env:
           FTP_SERVER: ipv4.luckykeeper.site:21212
