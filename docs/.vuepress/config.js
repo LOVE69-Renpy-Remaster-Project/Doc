@@ -28,13 +28,13 @@ module.exports = {
               '目录组织'
             ],
           },
-        // vssueConfig: {
-        //     platform: 'github',
-        //     owner: 'LOVE69-Renpy-Remaster-Project',
-        //     repo: 'Doc',
-        //     clientId: 'YOUR_CLIENT_ID',
-        //     clientSecret: 'YOUR_CLIENT_SECRET',
-        //   },
+        vssueConfig: {
+            platform: 'github',
+            owner: 'LOVE69-Renpy-Remaster-Project',
+            repo: 'Doc',
+            clientId: '1cd4ed1eb3240fb3ac49',
+            clientSecret: '00fdc3435f6a1bd301ba2b6986d3343452c45b3d',
+          },
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: 'luckykeeper/LOVE69_renpy_remaster',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
