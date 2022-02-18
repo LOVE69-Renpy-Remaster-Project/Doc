@@ -1,17 +1,27 @@
 name: 部署到 GitHub Pages
-on: [push]
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.Token_For_Love69_Doc_Website }}
-        TARGET_REPO: LOVE69-Renpy-Remaster-Project/Doc
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vuepress/dist
+      - name: install
+        run: yarn install 
+
+      - name: Build
+        run:  yarn build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.Token_For_Love69_Doc_Website }}
+          REPOSITORY_NAME: LOVE69-Renpy-Remaster-Project/Doc
+          BRANCH: gh-pages
