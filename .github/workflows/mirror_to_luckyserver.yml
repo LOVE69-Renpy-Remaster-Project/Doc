@@ -1,9 +1,5 @@
 - name: 同步到 LuckyServer
-on:
-  push:
-    branches:
-      - main
-      
+
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         env:
           FTP_SERVER: ipv4.luckykeeper.site:21212
