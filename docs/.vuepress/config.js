@@ -5,7 +5,7 @@ module.exports = {
     base: '/Doc/',
     
     head: [
-    ['link', { rel: 'icon', href: '/images/项目组logo_smallsize.png' }],
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['meta', { name: 'author', content: 'Luckykeeper' }],
     ['meta', { name: 'keywords', content: 'LOVE69,LOVEPOTION SIXTYNINE,Ren’py,汉化,移植,跨平台,文档,Documentation'}],
@@ -13,7 +13,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#42b983' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/images/项目组logo_smallsize.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/images/favicon.ico' }],
     ],
     locales: {
         '/': {
