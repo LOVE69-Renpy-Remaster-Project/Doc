@@ -1,7 +1,7 @@
 <template>
   <section class="theme-container" v-if="!noFoundPageByTencent">
     <article class="content">
-      <img style="width:50%;height:50%" src="../images/404.jpg"/>
+      <img style="width:50%;height:50%" src="../images/404.png"/>
       <blockquote>{{ getMsg() }}</blockquote>
       <img style="width:100%;height:100%" src="../images/web404.png"/>
       <router-link to="/">返回文档站主页</router-link>
