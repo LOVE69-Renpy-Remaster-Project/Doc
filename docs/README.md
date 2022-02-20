@@ -3,8 +3,8 @@ home: true
 heroImage: /images/love69renpyremasterproject.png
 heroText: Love69 Ren’Py Remaster Project Documentation
 tagline: Love69 Ren’Py Remaster Project 文档
-actionText: 查看文档
-actionLink: /docs/
+actionText: 马上开始
+actionLink: /intro/
 features:
 - title: 上手简单
   details: 全面详细的注释，带你轻松上手 Ren’Py 
