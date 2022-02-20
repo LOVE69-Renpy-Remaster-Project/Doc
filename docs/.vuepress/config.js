@@ -14,7 +14,23 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: '/images/favicon.ico' }],
+    ['link', { rel: 'manifest', href: '/static/manifest.json' }],
     ],
+    plugins: [
+      ['@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: {
+            message: "发现新内容可用",
+            buttonText: "刷新"
+        }
+    }],
+    // 代码复制弹窗插件
+    ["vuepress-plugin-nuggets-style-copy", {
+      copyText: "复制代码",
+      tip: {
+          content: "复制成功!"
+      }
+    }]],
     locales: {
         '/': {
           lang: 'zh-CN'
@@ -25,7 +41,11 @@ module.exports = {
         noFoundPageByTencent: false,
         subSidebar: 'auto',
         sidebar: {
-            '/standard/': [
+          '/intro/': [
+            '',
+            '各文档介绍',
+            '关于本站'
+          ],'/standard/': [
               '',
               '目录组织'
             ],
@@ -73,6 +93,8 @@ module.exports = {
               text: '文档' , icon:'reco-document',
               ariaLabel: 'Document Menu',
               items: [
+                { text: '文档首页', link: '/docs/' , icon:'reco-home'},
+                { text: '介绍', link: '/intro/' , icon:'reco-document'},
                 { text: '代码规范', link: '/standard/' , icon:'reco-document'},
                 { text: '二次开发/二创', link: '/dev/' , icon:'reco-document'},
                 { text: '汉化、移植', link: '/chinese-localization/' , icon:'reco-document'},
@@ -89,20 +111,6 @@ module.exports = {
                 { text: '国内镜像站（请不要在镜像站登录评论组件）', link: 'https://love69doc.luckykeeper.site:44443/Doc/'}],
             },
           ],
-          plugins: [
-          ['@vuepress/pwa', {
-            serviceWorker: true,
-            updatePopup: {
-                message: "发现新内容可用",
-                buttonText: "刷新"
-            }
-        }],
-        // 代码复制弹窗插件
-        ["vuepress-plugin-nuggets-style-copy", {
-          copyText: "复制代码",
-          tip: {
-              content: "复制成功!"
-          }
-        }]],
+          
       }
 }

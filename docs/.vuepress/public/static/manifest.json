@@ -1,0 +1,16 @@
+{
+    "name": "Love69 Ren’Py Remaster Project Documentation",
+    "short_name": "Love69 Doc",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#00ffb3",
+    "icons": [
+      {
+        "src": "/static/项目组logo_smallsize.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ]
+}
+  
