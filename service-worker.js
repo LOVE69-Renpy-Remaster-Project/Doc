@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "8397375dfcf1cbc947f49f2b3a03953d"
+    "revision": "f7dc3f85b392fb074eca0b79fac51aea"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -130,20 +130,20 @@ self.__precacheManifest = [
     "revision": "663ed3f22e8e77abcd7e784c067d327d"
   },
   {
-    "url": "assets/js/app.fb51efb8.js",
-    "revision": "3c4dd2537e121b9b1b52dfb7c79ff467"
+    "url": "assets/js/app.a6d8b34b.js",
+    "revision": "6977ca111fc94a5a9a9220de55e49c81"
   },
   {
     "url": "categories/index.html",
-    "revision": "e040450d863a4fe8fe25bae355868a8a"
+    "revision": "66035e1d5f698fddfd6ff4b2291f7c58"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "c15cff2b26f1caba8edf48c450792300"
+    "revision": "d9c06aefaa58cebd5398067fe5e1e2ae"
   },
   {
     "url": "docs/index.html",
-    "revision": "ad3e012076a6ca11c8c847c6f666df76"
+    "revision": "4ef3a99516d4822422f602ae2145d152"
   },
   {
     "url": "images/header-tou.jpg",
@@ -159,27 +159,27 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a4d0e4ebe5267b348a78667c3008d739"
+    "revision": "b541497be4de2c42d5659b9fb6d77573"
   },
   {
     "url": "intro/index.html",
-    "revision": "9182a898ca623df49384e74b7f540155"
+    "revision": "b4d25a3df1412edd17a44c665bac82f7"
   },
   {
     "url": "intro/关于本站.html",
-    "revision": "8e499a4747450ee1091490d725aee636"
+    "revision": "b64b55c266c988a6f63ce214065b1674"
   },
   {
     "url": "intro/各文档介绍.html",
-    "revision": "67c154cdadfe68101932ccb5a5fd7730"
+    "revision": "ab2a72607164be6edef8d3448e295d09"
   },
   {
     "url": "standard/index.html",
-    "revision": "e26b3e9243eae6352489539958d4ff4d"
+    "revision": "52e034d50f341b75d49fca1ef2954b4d"
   },
   {
     "url": "standard/目录组织.html",
-    "revision": "8cd04ecfa42f38ab94bb65c03e3fa266"
+    "revision": "405baa41fe1123b0ebebdb2c4377df3b"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -195,11 +195,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "f7d3882a4c54d9fe4d572456dffa418e"
+    "revision": "52e5e253c1dd8d73d7cffeeacc4b2033"
   },
   {
     "url": "timeline/index.html",
-    "revision": "5a54b720c07d9c83d193cf8508aaf05d"
+    "revision": "c7ff6ffeaf3b251c005a74b57e11eddc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
