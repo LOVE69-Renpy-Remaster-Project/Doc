@@ -14,7 +14,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: '/images/favicon.ico' }],
-    ['link', { rel: 'manifest', href: '/static/manifest.json' }],
+    ['link', { rel: 'manifest', href: 'manifest.json' }],
     ],
     plugins: [
       ['@vuepress/pwa', {
