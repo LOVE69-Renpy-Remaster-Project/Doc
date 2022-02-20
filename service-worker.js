@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "03f2eb9e60c14fe2448444467031090a"
+    "revision": "8397375dfcf1cbc947f49f2b3a03953d"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -130,20 +130,20 @@ self.__precacheManifest = [
     "revision": "663ed3f22e8e77abcd7e784c067d327d"
   },
   {
-    "url": "assets/js/app.a82dc3cb.js",
-    "revision": "bc26e2e09b20aa419e483946fe6a48ad"
+    "url": "assets/js/app.fb51efb8.js",
+    "revision": "3c4dd2537e121b9b1b52dfb7c79ff467"
   },
   {
     "url": "categories/index.html",
-    "revision": "234a3a37577a038fe5b394142f65ef03"
+    "revision": "e040450d863a4fe8fe25bae355868a8a"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "660a6f3d6d4bf94a3751e2fd1df40536"
+    "revision": "c15cff2b26f1caba8edf48c450792300"
   },
   {
     "url": "docs/index.html",
-    "revision": "f6175bb830ed94914334ec5435672287"
+    "revision": "ad3e012076a6ca11c8c847c6f666df76"
   },
   {
     "url": "images/header-tou.jpg",
@@ -159,39 +159,47 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0c21ad81c4f1f88caabac99d01d117b8"
+    "revision": "a4d0e4ebe5267b348a78667c3008d739"
   },
   {
     "url": "intro/index.html",
-    "revision": "a6836099bca08acd5002790c91c1f4e0"
+    "revision": "9182a898ca623df49384e74b7f540155"
   },
   {
     "url": "intro/关于本站.html",
-    "revision": "8b47824c1740c8f57b240a4be6de047b"
+    "revision": "8e499a4747450ee1091490d725aee636"
   },
   {
     "url": "intro/各文档介绍.html",
-    "revision": "b7f3f65ef3d6748b3d67dc2c80f57ce3"
+    "revision": "67c154cdadfe68101932ccb5a5fd7730"
   },
   {
     "url": "standard/index.html",
-    "revision": "73c8327bf084d187e177130a12e0b5b3"
+    "revision": "e26b3e9243eae6352489539958d4ff4d"
   },
   {
     "url": "standard/目录组织.html",
-    "revision": "00806ebe772d33cbe146e19caed9be65"
+    "revision": "8cd04ecfa42f38ab94bb65c03e3fa266"
   },
   {
-    "url": "static/项目组logo_smallsize.png",
-    "revision": "3c16e29ba08043aac27a5f3cf0cd75af"
+    "url": "static/android-chrome-192x192.png",
+    "revision": "e8399e7b8286e9eafffd01f265fdda6b"
+  },
+  {
+    "url": "static/android-chrome-512x512.png",
+    "revision": "a37c789d8cffa2bc88bfc53afef4329a"
+  },
+  {
+    "url": "static/apple-touch-icon.png",
+    "revision": "6ffa49ad5733d3af0292c01337f63271"
   },
   {
     "url": "tag/index.html",
-    "revision": "43f7342bcb6facc4d4af078acd790cd3"
+    "revision": "f7d3882a4c54d9fe4d572456dffa418e"
   },
   {
     "url": "timeline/index.html",
-    "revision": "d7f24faa2345006e8ab92fdb7f02effd"
+    "revision": "5a54b720c07d9c83d193cf8508aaf05d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
