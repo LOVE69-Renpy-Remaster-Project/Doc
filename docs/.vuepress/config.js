@@ -3,6 +3,9 @@ module.exports = {
     description: 'Love69 Ren’Py Remaster Project Documentation,Love69 Ren’Py Remaster Project 文档',
     theme: 'reco',
     base: '/Doc/',
+    markdown: {
+      linenumbers:true
+    },
     
     head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
@@ -47,7 +50,8 @@ module.exports = {
             '关于本站以及开始本项目的初衷'
           ],'/standard/': [
               '',
-              '目录组织'
+              '目录组织结构',
+              '代码规范'
             ],
           },
         vssueConfig: {
@@ -110,7 +114,6 @@ module.exports = {
                 { text: 'GitHub-Pages', link: 'https://love69-renpy-remaster-project.github.io/Doc/'},
                 { text: '国内镜像站（请不要在镜像站登录评论组件）', link: 'https://love69doc.luckykeeper.site:44443/Doc/'}],
             },
-          ],
-          
+          ],  
       }
 }
