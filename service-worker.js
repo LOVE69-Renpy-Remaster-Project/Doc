@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c5155606710ef842e3eb553243078427"
+    "revision": "6fa01ff89668dec97d70719a645660f5"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -138,20 +138,20 @@ self.__precacheManifest = [
     "revision": "7ac28b0ea24bbea2473cbfa9dd52fd00"
   },
   {
-    "url": "assets/js/app.00619e22.js",
-    "revision": "749741c303f656acfbe9be43b9f67083"
+    "url": "assets/js/app.9ac1f52b.js",
+    "revision": "63c23817cd53c1388be772527bac6475"
   },
   {
     "url": "categories/index.html",
-    "revision": "8b600278b1220dd8dd29715d1dcb3612"
+    "revision": "6e04910eb8143d3fa6ff61cb5bfa5c97"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "d433d2fa91a90aad91c106967b62c8c6"
+    "revision": "bc7863cd8c3c20336a2e3daec85eaa92"
   },
   {
     "url": "docs/index.html",
-    "revision": "adc4dcb27bfe9be02e39af2f415e5d71"
+    "revision": "32718b117817d5a901a3afb65caa0a9a"
   },
   {
     "url": "images/header-tou.jpg",
@@ -175,35 +175,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e946cca426b3272a6616ac260d23109c"
+    "revision": "1264c8da22972168d81cee136125780b"
   },
   {
     "url": "intro/index.html",
-    "revision": "aa6865694d378abb27bf92350d95e592"
+    "revision": "2e9dedff2ed21fe33932ffb0888d6c4c"
   },
   {
     "url": "intro/关于本站以及开始本项目的初衷.html",
-    "revision": "47108079c35b4617d521838fa0e8c105"
+    "revision": "18660ac0fdc4bb20ca762908a4e62c19"
   },
   {
     "url": "intro/各文档详细介绍.html",
-    "revision": "eec927ce3bf26e6f79c19fccf0d3b5a7"
+    "revision": "2f0de5cdf5b889dc9277ff01deda7e6c"
   },
   {
     "url": "standard/index.html",
-    "revision": "6b472b98caac054aa78de4b2fe42725c"
+    "revision": "12f4e9ab260f375320e3abdf143e956f"
   },
   {
     "url": "standard/代码规范.html",
-    "revision": "2283e074e5ea54f456b015b9e8b1ae8a"
+    "revision": "faa9d0c7fc28ecd640bb6dc95beec89e"
   },
   {
     "url": "standard/可用方法.html",
-    "revision": "8b351f51248b807ef119ac4caaf13d83"
+    "revision": "56187470eec4624ac34980b56d162700"
   },
   {
     "url": "standard/目录组织结构.html",
-    "revision": "4373485d9af327d5146104303aa4c84d"
+    "revision": "8d998c161e9e07b29c784a4bc6293599"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -219,11 +219,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "71969d6759e02c64757cd85a051d5807"
+    "revision": "b002e335bcb192b30ba1083239e9bbf7"
   },
   {
     "url": "timeline/index.html",
-    "revision": "ee9c0dac989ad4a508ebd025b4f383a5"
+    "revision": "b861f7cf9ebe552d78e1b9c3602681da"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
