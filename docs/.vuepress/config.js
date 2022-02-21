@@ -4,7 +4,7 @@ module.exports = {
     theme: 'reco',
     base: '/Doc/',
     markdown: {
-      linenumbers:true
+      lineNumbers:true
     },
     
     head: [
@@ -51,7 +51,8 @@ module.exports = {
           ],'/standard/': [
               '',
               '目录组织结构',
-              '代码规范'
+              '代码规范',
+              '可用方法'
             ],
           },
         vssueConfig: {
