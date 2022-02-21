@@ -20,6 +20,12 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
     plugins: [
+      [
+        '@vuepress/google-analytics',
+        {
+          'ga': 'G-74SQFP5N6Y' // UA-00000000-0
+        }
+      ],
       ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: {
