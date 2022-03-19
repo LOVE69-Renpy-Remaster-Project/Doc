@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f1b5a6b0130d58b79cfd37bb78dda2e9"
+    "revision": "42a8b0194e743f681436ae5035af54f9"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -70,12 +70,12 @@ self.__precacheManifest = [
     "revision": "049da3887db37143ae715f9cc5ead2db"
   },
   {
-    "url": "assets/js/13.ceadafcd.js",
-    "revision": "24b6c47c76e0737375b1ed76d004878c"
+    "url": "assets/js/13.e7560d07.js",
+    "revision": "c1bd8d811bc919e3fb3d9942330ba192"
   },
   {
-    "url": "assets/js/14.42f8e7ad.js",
-    "revision": "c0fb851391a3e36825d8353a1f17e5e9"
+    "url": "assets/js/14.6c3fda00.js",
+    "revision": "b12aa7651abe45a3f0012d314f06e22b"
   },
   {
     "url": "assets/js/15.b6b153a9.js",
@@ -102,8 +102,8 @@ self.__precacheManifest = [
     "revision": "c9287d41e4f6687e369f45e736ed9f41"
   },
   {
-    "url": "assets/js/20.ce55080f.js",
-    "revision": "3cea3e3b80643ab7ef923612ed93add8"
+    "url": "assets/js/20.2b007759.js",
+    "revision": "e744bcd7f1094ab3c703c4da4cf3cb29"
   },
   {
     "url": "assets/js/21.4eaf1766.js",
@@ -138,20 +138,20 @@ self.__precacheManifest = [
     "revision": "7ac28b0ea24bbea2473cbfa9dd52fd00"
   },
   {
-    "url": "assets/js/app.7bda72b4.js",
-    "revision": "d496ac1950bc904e9f022c5d5384e0d9"
+    "url": "assets/js/app.1ba99129.js",
+    "revision": "0093e2866b93e8376d99868bb8efd2b9"
   },
   {
     "url": "categories/index.html",
-    "revision": "66789df9d46bfa43417d27ce86c086fb"
+    "revision": "900531ac9c535708da3cda249dd44238"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "81c12aaac0a32235c8f7b28c7b6e15b8"
+    "revision": "3fa5b93cfd4a9db8728074a8bd5df6a5"
   },
   {
     "url": "docs/index.html",
-    "revision": "270e4fc36504cc439638774f36967909"
+    "revision": "6d29cced01b29a593a215cc5b47f1280"
   },
   {
     "url": "images/header-tou.jpg",
@@ -175,35 +175,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "aeeb92b663cea39fff8929668deea80d"
+    "revision": "acdafc26153f2014340d323b062ee44d"
   },
   {
     "url": "intro/index.html",
-    "revision": "5f89f526b22f9762ca22738bd94b47f6"
+    "revision": "fa83c6b9c28b1988cfad55ac36f9cb6c"
   },
   {
     "url": "intro/关于本站以及开始本项目的初衷.html",
-    "revision": "ca231fb3021d6c3d7a92089989d6d335"
+    "revision": "9a74836d4885f2961d08071d7f97db85"
   },
   {
     "url": "intro/各文档详细介绍.html",
-    "revision": "1831b62e466838b955cadd8445e11b0c"
+    "revision": "195f82dacf0b7ddb9d7129ec81bd4565"
   },
   {
     "url": "standard/index.html",
-    "revision": "1e84d0b8316b8e86e5b5813d4dc232b7"
+    "revision": "7f7fdf323f58ecf18f35877efb9aa7a8"
   },
   {
     "url": "standard/代码规范.html",
-    "revision": "fb7c8543684b53a4049240619ef8d008"
+    "revision": "1d9fb5dde567dca138bf97dfd1280dfd"
   },
   {
     "url": "standard/可用方法.html",
-    "revision": "0b9e4b0152a37c539c2d3372b0be02e1"
+    "revision": "ec4a0bf40754c9f43bf4d61dfd2b0f48"
   },
   {
     "url": "standard/目录组织结构.html",
-    "revision": "c84e861bb17661f0ff79d884426e0960"
+    "revision": "6edf5c5eb1421cb7a404d10d8766d7d1"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -219,11 +219,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "8cee2c8deb6a88bf179ef5feb65e4498"
+    "revision": "a948f8ee98ac90f6d704f81ac98da510"
   },
   {
     "url": "timeline/index.html",
-    "revision": "4517989050877d32580ba1a8f6febe97"
+    "revision": "209bc545cda97de9a4cfc126737a132a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
