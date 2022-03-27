@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "3c81df1966e2bbcb89e3091efec2b507"
+    "revision": "1d4764bab5e8340a2d9bdba99398c24f"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -102,8 +102,8 @@ self.__precacheManifest = [
     "revision": "c9287d41e4f6687e369f45e736ed9f41"
   },
   {
-    "url": "assets/js/20.d8b7e347.js",
-    "revision": "a8e2f896b60ab875affb446dc3ff6638"
+    "url": "assets/js/20.6f4076f0.js",
+    "revision": "2521262c5a651b6790e644ab807e51ec"
   },
   {
     "url": "assets/js/21.4eaf1766.js",
@@ -138,20 +138,20 @@ self.__precacheManifest = [
     "revision": "7ac28b0ea24bbea2473cbfa9dd52fd00"
   },
   {
-    "url": "assets/js/app.9818c695.js",
-    "revision": "6aa8fef99ad65d0ffc28524609cc855a"
+    "url": "assets/js/app.ae1a3e0f.js",
+    "revision": "281b4b4c2c5f37139367ed4c1e8a62aa"
   },
   {
     "url": "categories/index.html",
-    "revision": "453796480acc8f3079dc10f02333dbbf"
+    "revision": "ba5a07d90c9aa269201d779a3d8be90f"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "972d0f5cf92dbb1c5ad9b26954ab33f7"
+    "revision": "dc402772172a09014566576a1401da54"
   },
   {
     "url": "docs/index.html",
-    "revision": "98e94755e741ce3c34877edd2760ef64"
+    "revision": "4b7039dd26af206d6e87c0e3675a80a2"
   },
   {
     "url": "images/header-tou.jpg",
@@ -175,35 +175,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3db8836a726ae26b6bc775f99e255593"
+    "revision": "847fa4abc217e4a992a29d47b2a6a429"
   },
   {
     "url": "intro/index.html",
-    "revision": "aeda84efd327139053c8aefadf009e53"
+    "revision": "aa15ad6eba18b9fca86414f61eab346b"
   },
   {
     "url": "intro/关于本站以及开始本项目的初衷.html",
-    "revision": "0dd0697c1505c1ce747686ebc85c9e58"
+    "revision": "45cbbf65bb89e5c457b3476b14ba17d0"
   },
   {
     "url": "intro/各文档详细介绍.html",
-    "revision": "a705a09f5d277d7ee17db81a4add7a71"
+    "revision": "7c09594ea3a3bc11eb080b94349b920e"
   },
   {
     "url": "standard/index.html",
-    "revision": "46f176837c122ba162bc3f4ca04c79b2"
+    "revision": "d002ff62ef7e83cd122906ab9fee03da"
   },
   {
     "url": "standard/代码规范.html",
-    "revision": "3dfaa6f99f6ea104bf2e2939f1e05613"
+    "revision": "1d916d58393d656d4da891e129b1ebeb"
   },
   {
     "url": "standard/可用方法.html",
-    "revision": "918ee55272617041982708cdd3b36026"
+    "revision": "2c59ca62cf072cfd644a1174886d9c64"
   },
   {
     "url": "standard/目录组织结构.html",
-    "revision": "f64e7175768121ab54c3911d8164d0a1"
+    "revision": "6b20b9a51fe4f960c81f623792642dc7"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -219,11 +219,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "fb4fba8251e562230569bfc3e9111a23"
+    "revision": "721ca9894e9699d3dc1c65c339817208"
   },
   {
     "url": "timeline/index.html",
-    "revision": "65f88fa3c059f48cfec9b7529afa0adf"
+    "revision": "6dcf47cd4c4b3c4da49cba198b80d8c7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
