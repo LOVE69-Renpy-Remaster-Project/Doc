@@ -61,7 +61,8 @@ module.exports = {
               '可用方法'
             ],'/dev/': [
               '',
-              '解包'
+              '解包',
+              '环境准备'
             ],
           },
         vssueConfig: {
