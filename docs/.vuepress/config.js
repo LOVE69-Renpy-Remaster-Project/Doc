@@ -62,7 +62,8 @@ module.exports = {
             ],'/dev/': [
               '',
               '解包',
-              '环境准备'
+              '环境准备',
+              '常见问题'
             ],
           },
         vssueConfig: {
