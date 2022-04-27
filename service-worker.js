@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "edd602b25f67ad76a58ee892e0539438"
+    "revision": "4d3ccc644ed9042b7d78ed4767863d7f"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -154,36 +154,36 @@ self.__precacheManifest = [
     "revision": "7ac28b0ea24bbea2473cbfa9dd52fd00"
   },
   {
-    "url": "assets/js/app.2bb06653.js",
-    "revision": "ad5ddd1201960fbb98fe66fe8495c09c"
+    "url": "assets/js/app.ea73d596.js",
+    "revision": "6d3e279a6a589a9d0aecbcc736e87e0a"
   },
   {
     "url": "categories/index.html",
-    "revision": "0dc2d9b1d7c9583941ff4131f3170773"
+    "revision": "8fcf2297940a1ae33ec20b2ef36f43b1"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "1e458f68b65faf7000dcb2da98dcef24"
+    "revision": "674d4b6ea2d5f5a86b1590fdc8eb0541"
   },
   {
     "url": "dev/index.html",
-    "revision": "89f9c3368c256ddd333d2726b058bb53"
+    "revision": "f1e73cf6a90ae1ba770673bb31fee638"
   },
   {
     "url": "dev/常见问题.html",
-    "revision": "0731c445f978b054313ad0b8fb938f8e"
+    "revision": "e862d5b241daf21236ae167240dd2da4"
   },
   {
     "url": "dev/环境准备.html",
-    "revision": "4869ef90735161de8af7748067c58722"
+    "revision": "fba58e3e6b43a90b99120ff12b7fe66a"
   },
   {
     "url": "dev/解包.html",
-    "revision": "3462b12a0d413d12d7d581244ef58c87"
+    "revision": "71ac1f25490ad91e0d6edc4a04500e29"
   },
   {
     "url": "docs/index.html",
-    "revision": "2095d9daa4c8f92fdeaf4c8fa658dfe3"
+    "revision": "ad2dd55d059fd98c0a917ee399ff7b32"
   },
   {
     "url": "images/header-tou.jpg",
@@ -199,7 +199,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/love69renpyremasterproject.png",
-    "revision": "7b83f1d87ade777e1ce57839284259b7"
+    "revision": "8a151b2952cd07832cce26ad14a02f21"
   },
   {
     "url": "images/项目组logo_smallsize.png",
@@ -207,35 +207,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6c8e7a7535406c34045a2bcf806cb61a"
+    "revision": "db20536a356215454ede00274f6dfad4"
   },
   {
     "url": "intro/index.html",
-    "revision": "b2ad17b335cf53ffea85a3e0c7dc216f"
+    "revision": "85f12eb8fa17fadc24faee06907efa55"
   },
   {
     "url": "intro/关于本站以及开始本项目的初衷.html",
-    "revision": "edded8b34204accdeceb1b0e3f60dad8"
+    "revision": "31ae3d394a3c5e40a59c5440355e91ee"
   },
   {
     "url": "intro/各文档详细介绍.html",
-    "revision": "4c53ac6fbb5a316277248ab71c82cf38"
+    "revision": "b6f1fb4ca7bca6138f033e171841597a"
   },
   {
     "url": "standard/index.html",
-    "revision": "77cdd7f13f56031e5e38e96e97d5d7bc"
+    "revision": "2e876832a6869c0a199b1e4fb3d3c692"
   },
   {
     "url": "standard/代码规范.html",
-    "revision": "9faaef1d8bc0e08d2f2f0a30cec50866"
+    "revision": "4de34ee914bb361f177341945c89e42d"
   },
   {
     "url": "standard/可用方法.html",
-    "revision": "412e6f524dec111c659944220369b515"
+    "revision": "8cbe6243c6303def4feea6d744047b45"
   },
   {
     "url": "standard/目录组织结构.html",
-    "revision": "40879f22697debe55f6044d5d0ff2ab7"
+    "revision": "4f69bf555ab0a8ee0c0885064312dfb2"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -251,11 +251,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "8fb940a97c4e02154b94c08d89b32bb9"
+    "revision": "4bc5a4efee700deaed4f37459e8e1c52"
   },
   {
     "url": "timeline/index.html",
-    "revision": "492480f6c265b5335a2879e3a18c2335"
+    "revision": "f57f69d1a24bee22d4e198c14fbf5503"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
