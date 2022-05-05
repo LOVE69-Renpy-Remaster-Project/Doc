@@ -65,9 +65,13 @@ module.exports = {
               '环境准备',
               '常见问题',
               '快速上手',
-              '写一个非常简单的对话',
-            ],
-          },
+              '写一个非常简单的对话'
+            ],'/chinese-localization/': [
+              '',
+              '汉化',
+              '移植',
+              '原作分析'
+            ]},
         vssueConfig: {
             platform: 'github',
             owner: 'LOVE69-Renpy-Remaster-Project',
