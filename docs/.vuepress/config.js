@@ -70,7 +70,10 @@ module.exports = {
               '',
               '汉化',
               '移植',
-              '原作分析'
+              '原作分析',
+              '扩展内容：Galgame常见引擎介绍'
+            ],'/renpy/': [
+              '',
             ]},
         vssueConfig: {
             platform: 'github',
