@@ -74,6 +74,7 @@ module.exports = {
               '扩展内容：Galgame常见引擎介绍'
             ],'/renpy/': [
               '',
+              '添加不同大小的小头像',
             ]},
         vssueConfig: {
             platform: 'github',
