@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "4fbbbbf8e69891b7628ae9ff67ff70c1"
+    "revision": "e6ea0f6eaaddb07e8945bcf3712a1d5e"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -186,60 +186,60 @@ self.__precacheManifest = [
     "revision": "7ac28b0ea24bbea2473cbfa9dd52fd00"
   },
   {
-    "url": "assets/js/app.d67ff23f.js",
-    "revision": "6d125165a6cdfa1dd95b82f052d150e1"
+    "url": "assets/js/app.490498f6.js",
+    "revision": "56b38b1b4ef7449b31d6fb56bb472e78"
   },
   {
     "url": "categories/index.html",
-    "revision": "f4962ac3f8c4fb6632b4d14af7de535c"
+    "revision": "dc29744500aef5a99e708970ef34ab55"
   },
   {
     "url": "chinese-localization/index.html",
-    "revision": "0047291466cb8153732558210124aff2"
+    "revision": "a7a221ddd5dba29daf7552e09c33441f"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "aa6cf76757f03e3e2198e05c3f353b6b"
+    "revision": "82717bfafff24e15c1a24bfeb91acaa3"
   },
   {
     "url": "chinese-localization/扩展内容：Galgame常见引擎介绍.html",
-    "revision": "221093c96c5121e03b2d22d63b1e1265"
+    "revision": "6952de7e8f2dc05fceb370f31104475c"
   },
   {
     "url": "chinese-localization/汉化.html",
-    "revision": "09f2efbface7c15d433f1e4f71067527"
+    "revision": "44b08bea0e6c4d13edbf779fd922e8e1"
   },
   {
     "url": "chinese-localization/移植.html",
-    "revision": "6e73b64b034c0404297c668b6e0ea11f"
+    "revision": "4baf7350de6f632999209562cbd87039"
   },
   {
     "url": "dev/index.html",
-    "revision": "45d211ac6282ffafc90c8064eb21f081"
+    "revision": "bb2449af8ff1510502b371842a90a11c"
   },
   {
     "url": "dev/写一个非常简单的对话.html",
-    "revision": "f7ff688c84418d1b4c1b6a68ced43458"
+    "revision": "b1d696d27205f98e910d1ede1385a41d"
   },
   {
     "url": "dev/常见问题.html",
-    "revision": "09e86ca88bb846d0640e996fae2f90df"
+    "revision": "f0fe8b534b9d890e60853cff22c85f8a"
   },
   {
     "url": "dev/快速上手.html",
-    "revision": "477d608bdb2b3b64d7cddbcec320e42c"
+    "revision": "0486b0334df92ab8bc692b36dbe0139e"
   },
   {
     "url": "dev/环境准备.html",
-    "revision": "026701cef9c3241c227ef22121436c21"
+    "revision": "3474c178ba0783cee23cddd45e6c20c0"
   },
   {
     "url": "dev/解包.html",
-    "revision": "57213f624cf4b939ed4ed3813a856e8a"
+    "revision": "099bc1c1c50ce4ae0d793fd7beb08bde"
   },
   {
     "url": "docs/index.html",
-    "revision": "21abae70d3e1d4f428676d3c882c0deb"
+    "revision": "ab4d9b6ad1998e53796f9bba69591729"
   },
   {
     "url": "images/dev/写一个非常简单的对话/程序运作流程.png",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/renpy/添加大小不同的小头像/心爱立绘.png",
-    "revision": "3b655bddc1a126da301617c07d1047f1"
+    "revision": "6b54e5fa2558b44e2129f5e1c0164936"
   },
   {
     "url": "images/renpy/添加大小不同的小头像/真冬小头像.png",
@@ -291,43 +291,43 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1ce509a334746b41b8bd36d710404648"
+    "revision": "63ab880cdcdd78ffe8758c47bd3718a8"
   },
   {
     "url": "intro/index.html",
-    "revision": "80a28bda218eb8c917e610a08df4aaf6"
+    "revision": "c0cb08eb4b91528369bd23b9d8116453"
   },
   {
     "url": "intro/关于本站以及开始本项目的初衷.html",
-    "revision": "eba4b75dbb55948d63b3531071b408d0"
+    "revision": "8012af14b2371f2ee10ab4888610b29c"
   },
   {
     "url": "intro/各文档详细介绍.html",
-    "revision": "a0c23d0079546e0983e441b3991dc40c"
+    "revision": "77681a593026befeafd47b2f5c4b9451"
   },
   {
     "url": "renpy/index.html",
-    "revision": "9e3b5bddf5c7309b6e1e305539685dd0"
+    "revision": "4688bcea1e5f00545f6d11e8e783c2ec"
   },
   {
     "url": "renpy/添加不同大小的小头像.html",
-    "revision": "7b5efab1506399313712c270139e0a0a"
+    "revision": "21c14e3f1b328d79d5f2db36770fee63"
   },
   {
     "url": "standard/index.html",
-    "revision": "45fb46e312fced10027ebcd716ca30a1"
+    "revision": "30c38edbdf8d6e2dca71e68ca39ad8ad"
   },
   {
     "url": "standard/代码规范.html",
-    "revision": "48ae0cda576f2b8d473e80d3e7a45045"
+    "revision": "9d8941c06184f040f6e291ad3dfbee87"
   },
   {
     "url": "standard/可用方法.html",
-    "revision": "c87f509b231daa7b97b5dba5e003a5fd"
+    "revision": "3110a704b8e4aa3b2ee1becc455b729f"
   },
   {
     "url": "standard/目录组织结构.html",
-    "revision": "b9745fdbcf0cc76bad18042f892eec9a"
+    "revision": "3314d97be8dd4c81d9228d12df19bb16"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -343,11 +343,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "6843dc72c8a9f758fe29929f8ed192ec"
+    "revision": "1cd195a44467dd6562faafc156aa4f0f"
   },
   {
     "url": "timeline/index.html",
-    "revision": "1d356a792fdf41354a4302d84fe0705d"
+    "revision": "1cd7da8681ebda31c236acfdd30b7a6c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
