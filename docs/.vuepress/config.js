@@ -75,6 +75,9 @@ module.exports = {
             ],'/renpy/': [
               '',
               '添加不同大小的小头像',
+              '已读未读文本不同颜色',
+              '文本描边',
+              'CTC动画',
             ]},
         vssueConfig: {
             platform: 'github',
