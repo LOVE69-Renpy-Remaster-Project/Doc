@@ -78,6 +78,8 @@ module.exports = {
               '已读未读文本不同颜色',
               '文本描边',
               'CTC动画',
+              '人物语音不中断',
+              'QuickMenu（快捷菜单）的制作',
             ]},
         vssueConfig: {
             platform: 'github',
