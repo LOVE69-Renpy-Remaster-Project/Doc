@@ -74,12 +74,15 @@ module.exports = {
               '扩展内容：Galgame常见引擎介绍'
             ],'/renpy/': [
               '',
+              '导航',
               '添加不同大小的小头像',
               '已读未读文本不同颜色',
               '文本描边',
               'CTC动画',
               '人物语音不中断',
               'QuickMenu（快捷菜单）的制作',
+              '读取最新存档功能',
+              '制作主菜单',
             ]},
         vssueConfig: {
             platform: 'github',
