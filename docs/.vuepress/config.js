@@ -83,6 +83,7 @@ module.exports = {
               'QuickMenu（快捷菜单）的制作',
               '读取最新存档功能',
               '制作主菜单',
+              '魔改存读档界面',
             ]},
         vssueConfig: {
             platform: 'github',
