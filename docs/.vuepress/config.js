@@ -84,6 +84,7 @@ module.exports = {
               '读取最新存档功能',
               '制作主菜单',
               '魔改存读档界面',
+              '设置和持久化变量',
             ]},
         vssueConfig: {
             platform: 'github',
