@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ddae8e537f8b8e925f301ad4b39224a9"
+    "revision": "998d4a6ebc785b4249e376093302626c"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -58,8 +58,8 @@ self.__precacheManifest = [
     "revision": "f45e8006e17646afdb6229b5e7121a65"
   },
   {
-    "url": "assets/js/10.ee10b35f.js",
-    "revision": "4490254523dff77a190f32e28ece0093"
+    "url": "assets/js/10.276d84cc.js",
+    "revision": "126058b5a185daec981fe336b834668a"
   },
   {
     "url": "assets/js/11.3e78ab19.js",
@@ -170,36 +170,40 @@ self.__precacheManifest = [
     "revision": "83445a24c6d1321117065807fd626b03"
   },
   {
-    "url": "assets/js/37.138067b2.js",
-    "revision": "a6306d83fb5ce274cc22eb81e56330f1"
+    "url": "assets/js/37.2a3dfea2.js",
+    "revision": "c5ad2ef69e06d667c35fd7582754587a"
   },
   {
-    "url": "assets/js/38.8d73da5e.js",
-    "revision": "39db73ba578dca722dd1f313afff2dc6"
+    "url": "assets/js/38.9f689cf3.js",
+    "revision": "57e9dc85935b8d3e23fa1633c0e5453a"
   },
   {
-    "url": "assets/js/39.a8c7f371.js",
-    "revision": "79da3159feecd3fd5f7776c1abd55f6e"
+    "url": "assets/js/39.46ac5c6c.js",
+    "revision": "647fadb2abc2a923226b5abe0d3d6a17"
   },
   {
     "url": "assets/js/4.bd616938.js",
     "revision": "1b570c470694c9feeec389a3766e32df"
   },
   {
-    "url": "assets/js/40.3d51bd3d.js",
-    "revision": "f6995363873ebb1b6020f68c7f9f9c67"
+    "url": "assets/js/40.2b9c6d0b.js",
+    "revision": "0a6299eea8b5b986191ded40b0ef3d46"
   },
   {
-    "url": "assets/js/41.07a9e789.js",
-    "revision": "37301f4b1f943c92e1dddfac7af51504"
+    "url": "assets/js/41.56ad0af1.js",
+    "revision": "d99fcac272b34e737cea4e7db606bd5f"
   },
   {
-    "url": "assets/js/42.e93e3727.js",
-    "revision": "1e8c7a1756c49cc3b7e4c8540fe5f1fa"
+    "url": "assets/js/42.b1d980f4.js",
+    "revision": "a57000a352021a0a782dc0b08d198623"
   },
   {
-    "url": "assets/js/43.4c772300.js",
-    "revision": "0371e3445a0893321dd701148d5dae4e"
+    "url": "assets/js/43.85472918.js",
+    "revision": "bb54df1b6eac2feff57023ead02681c2"
+  },
+  {
+    "url": "assets/js/44.181849df.js",
+    "revision": "ea6bd0175f9d7fa6767436a4fdc2449d"
   },
   {
     "url": "assets/js/5.9c162e0d.js",
@@ -222,60 +226,60 @@ self.__precacheManifest = [
     "revision": "7ac28b0ea24bbea2473cbfa9dd52fd00"
   },
   {
-    "url": "assets/js/app.bda79b84.js",
-    "revision": "6a68b8d6e12087c9f1fdfc634a39f5d6"
+    "url": "assets/js/app.3e9a676a.js",
+    "revision": "d9c290ccfc566742ce3a3dbad5e140e0"
   },
   {
     "url": "categories/index.html",
-    "revision": "731fdfff284780953b183878965e6d87"
+    "revision": "e17c7e871d28bd25a97a86efc4e86386"
   },
   {
     "url": "chinese-localization/index.html",
-    "revision": "fcb963940d6874f4dff8cae63f8b5069"
+    "revision": "2c62370c73860b31cc9756ed5500fb5d"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "59f69429911b05163d33552ce1320f84"
+    "revision": "803f3b1dce748f5e23359c03caabb98b"
   },
   {
     "url": "chinese-localization/扩展内容：Galgame常见引擎介绍.html",
-    "revision": "c495e3a0b1f3affe22f9ae2641cd4771"
+    "revision": "da9a2eab262c03706c7d87c5a31ae7d4"
   },
   {
     "url": "chinese-localization/汉化.html",
-    "revision": "a35eed85d3907dec7774fd62f8f81ff7"
+    "revision": "b05b7f68c67ba195616f300f4d141b27"
   },
   {
     "url": "chinese-localization/移植.html",
-    "revision": "2b75bebf241c4848ffed9d28a83fa5c3"
+    "revision": "8369a0a061ac0e7249e178dce6cf2f78"
   },
   {
     "url": "dev/index.html",
-    "revision": "281a1759e945b9a99bb8d1519990b887"
+    "revision": "213aba5825797ad84d653e9f99af81a6"
   },
   {
     "url": "dev/写一个非常简单的对话.html",
-    "revision": "5ce12195e44d8721679394af6bd55dd3"
+    "revision": "5ee21c2359aff8040f8ec5e72ddb0f1d"
   },
   {
     "url": "dev/常见问题.html",
-    "revision": "e48e6ece924ae69965131ea2e99de5ee"
+    "revision": "50119438a510538aa3bfce50dcafc871"
   },
   {
     "url": "dev/快速上手.html",
-    "revision": "c0be9bcd66b71bec94645c9d6a8657fb"
+    "revision": "7731c68d401edde066e99f7873e64f61"
   },
   {
     "url": "dev/环境准备.html",
-    "revision": "5b34f10d1cb82f51c26bba832533fed6"
+    "revision": "a7681581a3617a94a3f910d936f2030c"
   },
   {
     "url": "dev/解包.html",
-    "revision": "c452cec5dff645d9a2b3b01d08f29c97"
+    "revision": "eb412d5626a62e18a7398404fb14f1b7"
   },
   {
     "url": "docs/index.html",
-    "revision": "ad0398c3249c3ca2f09ebe0a36ece3a6"
+    "revision": "97b97cc38e184eb39dc8bdfaac7a0263"
   },
   {
     "url": "images/dev/写一个非常简单的对话/程序运作流程.png",
@@ -331,79 +335,83 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "561830fb1c5fcb2b2ac50c24e2a61a21"
+    "revision": "9317b3a64b894d83f90e8f428795f103"
   },
   {
     "url": "intro/index.html",
-    "revision": "7a461c391d7af6e56486d3945c005576"
+    "revision": "184b8d8f2b448c453c1e09f41e4e3d6c"
   },
   {
     "url": "intro/关于本站以及开始本项目的初衷.html",
-    "revision": "d93e75c7f99c038430b6033344ec8bbc"
+    "revision": "8c1c451a8dd6483d373a4d04fe311f68"
   },
   {
     "url": "intro/各文档详细介绍.html",
-    "revision": "3f78707d528d50c926f5f858eed8b1ee"
+    "revision": "f46975ba491d69053f8f1bbc83137f30"
   },
   {
     "url": "renpy/CTC动画.html",
-    "revision": "749bb09ca6b9edd6c9749e277b9dc685"
+    "revision": "2f13ac78907060eced655262a7abb8f1"
   },
   {
     "url": "renpy/index.html",
-    "revision": "1d550a22d27eb6b201ade53ffa81da93"
+    "revision": "5262f3ef5be450c9e8fce96f4c84cffe"
   },
   {
     "url": "renpy/QuickMenu（快捷菜单）的制作.html",
-    "revision": "fc6ea2b0a6c375770eae9723afe3bb69"
+    "revision": "ae763c814ab0dae539f320c7adbaa895"
   },
   {
     "url": "renpy/人物语音不中断.html",
-    "revision": "373b7cee418955128cbd329f9b011ffe"
+    "revision": "ec75b4d72c506ddfeac4c4847f1e7279"
   },
   {
     "url": "renpy/制作主菜单.html",
-    "revision": "54bea7d328825e2f6beccb4e1a6b030e"
+    "revision": "d11df74b68507c5b341c0c2b12ec0540"
   },
   {
     "url": "renpy/导航.html",
-    "revision": "bef2f4e625ee1248eabf755a41e068d6"
+    "revision": "66e06a489f60dfc5d8bff0119fc76ba1"
   },
   {
     "url": "renpy/已读未读文本不同颜色.html",
-    "revision": "385799d7c9e363b35fa52798e2e08eb6"
+    "revision": "1d4552ccaf1106a5e935239c07ae81ec"
   },
   {
     "url": "renpy/文本描边.html",
-    "revision": "4967d9520dc0a5fba79979d46157973f"
+    "revision": "00dc1b127786e0ca63bf500cf52223cc"
   },
   {
     "url": "renpy/添加不同大小的小头像.html",
-    "revision": "9fa87d8ef9509a43735a296ff7a06dec"
+    "revision": "642e7b7103fb57853a0caca8cababc15"
+  },
+  {
+    "url": "renpy/设置和持久化变量.html",
+    "revision": "89df4d3739f4c606401f0600fe9f6caf"
   },
   {
     "url": "renpy/读取最新存档功能.html",
-    "revision": "bf70581910df1b849c7bf9b58a2f3690"
+    "revision": "1a62044fd4047c3804c0c10fb589d922"
   },
   {
     "url": "renpy/魔改存读档界面.html",
-    "revision": "f1e45209947e8e4d0cadb40a1623ba1e"
+    "revision": "28292fa94bc2ddfbe14457c8cd2be708"
   },
   {
     "url": "standard/index.html",
-    "revision": "d52b9fe20de628d906b51ca68be86779"
+    "revision": "273c5f3e9dd8726266495160b9ffe4dd"
   },
   {
     "url": "standard/代码规范.html",
-    "revision": "fc8b57c58abd2758b922fd5fa2ffde30"
+    "revision": "cbf9f064ce23249554921aa156cfb6fe"
   },
   {
     "url": "standard/可用方法.html",
-    "revision": "f772d71d2f820d8e7a370866263f3590"
+    "revision": "0ed146179cc18a491be96aeb6d47b83f"
   },
   {
     "url": "standard/目录组织结构.html",
-    "revision": "d08b66b1bcc9a44ab533a245d35c7dcb"
+    "revision": "9016efdcd0b03fa3eb43d8bfa3c57260"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -419,11 +427,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "8b1b79351bb0c8566d85f4ee2aa6cf6e"
+    "revision": "b09dd4e92a9e3c7e67bfd5449f0dd45f"
   },
   {
     "url": "timeline/index.html",
-    "revision": "ba116d9bf2f35d70a81eef736cc3ef47"
+    "revision": "e4d965582a4236657296803fad430afc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
