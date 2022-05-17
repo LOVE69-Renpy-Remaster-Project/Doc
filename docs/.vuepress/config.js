@@ -85,6 +85,8 @@ module.exports = {
               '制作主菜单',
               '魔改存读档界面',
               '设置和持久化变量',
+              '历史记录跳跃',
+              '周目BGM切换',
             ]},
         vssueConfig: {
             platform: 'github',
