@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "998d4a6ebc785b4249e376093302626c"
+    "revision": "f951c14a2b65a6926f3325b0afcc40a9"
   },
   {
     "url": "assets/css/0.styles.e8785ab7.css",
@@ -58,8 +58,8 @@ self.__precacheManifest = [
     "revision": "f45e8006e17646afdb6229b5e7121a65"
   },
   {
-    "url": "assets/js/10.276d84cc.js",
-    "revision": "126058b5a185daec981fe336b834668a"
+    "url": "assets/js/10.98e4ea4a.js",
+    "revision": "2dc3ca21a7fe4476baf9cac7ae702e09"
   },
   {
     "url": "assets/js/11.3e78ab19.js",
@@ -154,56 +154,64 @@ self.__precacheManifest = [
     "revision": "b7039676cc78e9e03247b3cd657619a7"
   },
   {
-    "url": "assets/js/33.d20ce0a1.js",
-    "revision": "75f2075766192ea25944ae6a16149e64"
+    "url": "assets/js/33.0c8915bf.js",
+    "revision": "c0f6f5bd194ef6475ceaa480a966481f"
   },
   {
-    "url": "assets/js/34.3363ce51.js",
-    "revision": "94ae273723099b72f866024bb887611a"
+    "url": "assets/js/34.9c0d471a.js",
+    "revision": "075db68731031a4aad5aeff6e4d1ac66"
   },
   {
-    "url": "assets/js/35.39c097f3.js",
-    "revision": "c93ce5bce096cc34e64b34b96cef9bb3"
+    "url": "assets/js/35.e6e22ea8.js",
+    "revision": "d3fd915cac6660039a6138c56dfebad9"
   },
   {
-    "url": "assets/js/36.68c5120d.js",
-    "revision": "83445a24c6d1321117065807fd626b03"
+    "url": "assets/js/36.94dc8b60.js",
+    "revision": "9aeec14da5c16beacd5a50858cd220f8"
   },
   {
-    "url": "assets/js/37.2a3dfea2.js",
-    "revision": "c5ad2ef69e06d667c35fd7582754587a"
+    "url": "assets/js/37.4be6efd4.js",
+    "revision": "d013ea60e5ab03c47956311df0c879b5"
   },
   {
-    "url": "assets/js/38.9f689cf3.js",
-    "revision": "57e9dc85935b8d3e23fa1633c0e5453a"
+    "url": "assets/js/38.26bc6c26.js",
+    "revision": "b62f7a569d81a8fb0b62473c8d24702b"
   },
   {
-    "url": "assets/js/39.46ac5c6c.js",
-    "revision": "647fadb2abc2a923226b5abe0d3d6a17"
+    "url": "assets/js/39.9fbb5ca8.js",
+    "revision": "317e27079fdafd3c255e551d3b0012d1"
   },
   {
     "url": "assets/js/4.bd616938.js",
     "revision": "1b570c470694c9feeec389a3766e32df"
   },
   {
-    "url": "assets/js/40.2b9c6d0b.js",
-    "revision": "0a6299eea8b5b986191ded40b0ef3d46"
+    "url": "assets/js/40.ef023551.js",
+    "revision": "86547302f238ad0407e30929470e6176"
   },
   {
-    "url": "assets/js/41.56ad0af1.js",
-    "revision": "d99fcac272b34e737cea4e7db606bd5f"
+    "url": "assets/js/41.22b4318e.js",
+    "revision": "0d8514a9bd7ce88e30142485639665ed"
   },
   {
-    "url": "assets/js/42.b1d980f4.js",
-    "revision": "a57000a352021a0a782dc0b08d198623"
+    "url": "assets/js/42.84ced1f9.js",
+    "revision": "d094604ee4de6dcdf813c5dc1e05542e"
   },
   {
-    "url": "assets/js/43.85472918.js",
-    "revision": "bb54df1b6eac2feff57023ead02681c2"
+    "url": "assets/js/43.4c7dd758.js",
+    "revision": "559feb8ef4ff8f521494091fef6efb8f"
   },
   {
-    "url": "assets/js/44.181849df.js",
-    "revision": "ea6bd0175f9d7fa6767436a4fdc2449d"
+    "url": "assets/js/44.3426420b.js",
+    "revision": "79908f255292bfb36f160a565c61233a"
+  },
+  {
+    "url": "assets/js/45.78b12228.js",
+    "revision": "ceb93ff6e9a1564286d6f002ffb2df5d"
+  },
+  {
+    "url": "assets/js/46.5be03644.js",
+    "revision": "b6198cd092fe8ba937ce1cc7492d5a4b"
   },
   {
     "url": "assets/js/5.9c162e0d.js",
@@ -226,60 +234,60 @@ self.__precacheManifest = [
     "revision": "7ac28b0ea24bbea2473cbfa9dd52fd00"
   },
   {
-    "url": "assets/js/app.3e9a676a.js",
-    "revision": "d9c290ccfc566742ce3a3dbad5e140e0"
+    "url": "assets/js/app.3d24a4a6.js",
+    "revision": "51d9495a9acc18d8ac65f6179638d6ba"
   },
   {
     "url": "categories/index.html",
-    "revision": "e17c7e871d28bd25a97a86efc4e86386"
+    "revision": "1d4041a1b348ffa0fcc849c325081192"
   },
   {
     "url": "chinese-localization/index.html",
-    "revision": "2c62370c73860b31cc9756ed5500fb5d"
+    "revision": "f40f25c90043532e80a1e4a1666892fc"
   },
   {
     "url": "chinese-localization/原作分析.html",
-    "revision": "803f3b1dce748f5e23359c03caabb98b"
+    "revision": "50cf13983359e7581d2f30fbc36d4dbd"
   },
   {
     "url": "chinese-localization/扩展内容：Galgame常见引擎介绍.html",
-    "revision": "da9a2eab262c03706c7d87c5a31ae7d4"
+    "revision": "7a590e068269e7ca564f73c1a98206dc"
   },
   {
     "url": "chinese-localization/汉化.html",
-    "revision": "b05b7f68c67ba195616f300f4d141b27"
+    "revision": "e5e034510fcba39613e6858208ce2bbd"
   },
   {
     "url": "chinese-localization/移植.html",
-    "revision": "8369a0a061ac0e7249e178dce6cf2f78"
+    "revision": "89b65942644f1db82c8c4f6a1f0b7a91"
   },
   {
     "url": "dev/index.html",
-    "revision": "213aba5825797ad84d653e9f99af81a6"
+    "revision": "ba177d08fe84f3246f535a145c3f86eb"
   },
   {
     "url": "dev/写一个非常简单的对话.html",
-    "revision": "5ee21c2359aff8040f8ec5e72ddb0f1d"
+    "revision": "88a3b7cbc7998a93770885d71a0f9e41"
   },
   {
     "url": "dev/常见问题.html",
-    "revision": "50119438a510538aa3bfce50dcafc871"
+    "revision": "570e04f705542b5a340b21ff91e0e8d2"
   },
   {
     "url": "dev/快速上手.html",
-    "revision": "7731c68d401edde066e99f7873e64f61"
+    "revision": "28223572fd4fdaad076fc6cd9df84454"
   },
   {
     "url": "dev/环境准备.html",
-    "revision": "a7681581a3617a94a3f910d936f2030c"
+    "revision": "4f3afdd6d44e2464edc6411fd334642e"
   },
   {
     "url": "dev/解包.html",
-    "revision": "eb412d5626a62e18a7398404fb14f1b7"
+    "revision": "de5422824e96231e49fc6ee1622916d9"
   },
   {
     "url": "docs/index.html",
-    "revision": "97b97cc38e184eb39dc8bdfaac7a0263"
+    "revision": "12ca9d43209bc03705f6b6a95d8b68ec"
   },
   {
     "url": "images/dev/写一个非常简单的对话/程序运作流程.png",
@@ -335,83 +343,91 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "9317b3a64b894d83f90e8f428795f103"
+    "revision": "83cefc3ffe2224afac6b079480a15202"
   },
   {
     "url": "intro/index.html",
-    "revision": "184b8d8f2b448c453c1e09f41e4e3d6c"
+    "revision": "09711001620d85d035f3416ee03307b3"
   },
   {
     "url": "intro/关于本站以及开始本项目的初衷.html",
-    "revision": "8c1c451a8dd6483d373a4d04fe311f68"
+    "revision": "da014870a4b6a4775b4790f3dfb74e98"
   },
   {
     "url": "intro/各文档详细介绍.html",
-    "revision": "f46975ba491d69053f8f1bbc83137f30"
+    "revision": "1f555c1045f90877e79ebbaf29ce23d3"
   },
   {
     "url": "renpy/CTC动画.html",
-    "revision": "2f13ac78907060eced655262a7abb8f1"
+    "revision": "debde9e85e7cae3cbb00408771a50bbf"
   },
   {
     "url": "renpy/index.html",
-    "revision": "5262f3ef5be450c9e8fce96f4c84cffe"
+    "revision": "8a5a1615eedc718276ede3517344ebbe"
   },
   {
     "url": "renpy/QuickMenu（快捷菜单）的制作.html",
-    "revision": "ae763c814ab0dae539f320c7adbaa895"
+    "revision": "287bbe7d8d558f65fa760a4127445e8e"
   },
   {
     "url": "renpy/人物语音不中断.html",
-    "revision": "ec75b4d72c506ddfeac4c4847f1e7279"
+    "revision": "a039be2bc329cb6d18e77d1ed127a3b9"
   },
   {
     "url": "renpy/制作主菜单.html",
-    "revision": "d11df74b68507c5b341c0c2b12ec0540"
+    "revision": "5612684270ea804e3ddc809c07a1ccfc"
+  },
+  {
+    "url": "renpy/历史记录跳跃.html",
+    "revision": "c278e1ac79db9e247cd26516781fa540"
+  },
+  {
+    "url": "renpy/周目BGM切换.html",
+    "revision": "b6ef45e27fda0c7d9b141d4851c51c0a"
   },
   {
     "url": "renpy/导航.html",
-    "revision": "66e06a489f60dfc5d8bff0119fc76ba1"
+    "revision": "74051d3eab2baaa16c005e63fa6f7b04"
   },
   {
     "url": "renpy/已读未读文本不同颜色.html",
-    "revision": "1d4552ccaf1106a5e935239c07ae81ec"
+    "revision": "db13120c40fb76485c854e6f90ac9446"
   },
   {
     "url": "renpy/文本描边.html",
-    "revision": "00dc1b127786e0ca63bf500cf52223cc"
+    "revision": "d646d7f9086e2fd2eca7280897988dc9"
   },
   {
     "url": "renpy/添加不同大小的小头像.html",
-    "revision": "642e7b7103fb57853a0caca8cababc15"
+    "revision": "f8406bd9c319251dbf7ea4e876769083"
   },
   {
     "url": "renpy/设置和持久化变量.html",
-    "revision": "89df4d3739f4c606401f0600fe9f6caf"
+    "revision": "e8430e1ce41505fc6d7cff06be3e96ed"
   },
   {
     "url": "renpy/读取最新存档功能.html",
-    "revision": "1a62044fd4047c3804c0c10fb589d922"
+    "revision": "eca4d3f81018765bfdb31aebf3454e52"
   },
   {
     "url": "renpy/魔改存读档界面.html",
-    "revision": "28292fa94bc2ddfbe14457c8cd2be708"
+    "revision": "2c629086a3bb5076174ecc9b9d9d5cad"
   },
   {
     "url": "standard/index.html",
-    "revision": "273c5f3e9dd8726266495160b9ffe4dd"
+    "revision": "42f814b3b800b07b1e80c200e760b9de"
   },
   {
     "url": "standard/代码规范.html",
-    "revision": "cbf9f064ce23249554921aa156cfb6fe"
+    "revision": "0a9ac5f09cdc79e1e2670b1e45313541"
   },
   {
     "url": "standard/可用方法.html",
-    "revision": "0ed146179cc18a491be96aeb6d47b83f"
+    "revision": "e464dff4e739e1c0deb71d69225eac51"
   },
   {
     "url": "standard/目录组织结构.html",
-    "revision": "9016efdcd0b03fa3eb43d8bfa3c57260"
+    "revision": "b8b02ea2a394b8d06602f12671a523c4"
   },
   {
     "url": "static/android-chrome-192x192.png",
@@ -427,11 +443,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/index.html",
-    "revision": "b09dd4e92a9e3c7e67bfd5449f0dd45f"
+    "revision": "58eab0b5d4dd6ad686a4f85f5c13d3f6"
   },
   {
     "url": "timeline/index.html",
-    "revision": "e4d965582a4236657296803fad430afc"
+    "revision": "2ca9190a656b6ac70d53778fad5c4789"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
