@@ -87,6 +87,8 @@ module.exports = {
               '设置和持久化变量',
               '历史记录跳跃',
               '周目BGM切换',
+              '制作Gallery',
+              '制作音乐回放',
             ]},
         vssueConfig: {
             platform: 'github',
