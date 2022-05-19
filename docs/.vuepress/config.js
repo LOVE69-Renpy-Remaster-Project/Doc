@@ -89,6 +89,7 @@ module.exports = {
               '周目BGM切换',
               '制作Gallery',
               '制作音乐回放',
+              '制作剧情回想',
             ]},
         vssueConfig: {
             platform: 'github',
