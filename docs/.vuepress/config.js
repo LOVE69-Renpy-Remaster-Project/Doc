@@ -90,6 +90,8 @@ module.exports = {
               '制作Gallery',
               '制作音乐回放',
               '制作剧情回想',
+              '动画效果制作——基础篇',
+              '动画效果制作——CDD篇',
             ]},
         vssueConfig: {
             platform: 'github',
