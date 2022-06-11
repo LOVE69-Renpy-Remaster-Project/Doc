@@ -92,6 +92,8 @@ module.exports = {
               '制作剧情回想',
               '动画效果制作——基础篇',
               '动画效果制作——CDD篇',
+              'ATL动画和转场',
+              'Ver1.0文档结语',
             ]},
         vssueConfig: {
             platform: 'github',
