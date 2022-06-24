@@ -94,6 +94,7 @@ module.exports = {
               '动画效果制作——CDD篇',
               'ATL动画和转场',
               'Ver1.0文档结语',
+              '附录：小技巧',
             ]},
         vssueConfig: {
             platform: 'github',
