@@ -21,10 +21,10 @@ jobs:
 
       - name: install
         # https://stackoverflow.com/questions/75959563/node-js-err-ossl-evp-unsupported-error-when-running-npm-run-start
-        run: yarn install && export NODE_OPTIONS=--openssl-legacy-provider 
+        run: npm install
 
       - name: Build
-        run:  yarn build
+        run:  NODE_OPTIONS=--openssl-legacy-provider && npx vuepress build docs
 
       - name: 上传到 LuckyServer
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
