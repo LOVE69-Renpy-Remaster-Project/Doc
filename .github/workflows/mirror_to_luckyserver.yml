@@ -12,19 +12,24 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.16.0]
+        node-version: [16.14.0]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
+      - name: 更换 node 版本 
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16.16.0'
+          
       - name: install
         # https://stackoverflow.com/questions/75959563/node-js-err-ossl-evp-unsupported-error-when-running-npm-run-start
-        run: npm install
+        run: yarn install
 
       - name: Build
-        run:  NODE_OPTIONS=--openssl-legacy-provider && npx vuepress build docs
+        run:  yarn build
 
       - name: 上传到 LuckyServer
         uses: SamKirkland/FTP-Deploy-Action@2.0.0

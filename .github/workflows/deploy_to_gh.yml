@@ -8,18 +8,20 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.16.0]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
+      # - name: 更换 node 版本 
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '16.16.0'
+
       - name: install
         # https://stackoverflow.com/questions/75959563/node-js-err-ossl-evp-unsupported-error-when-running-npm-run-start
-        run: yarn install && export NODE_OPTIONS=--openssl-legacy-provider 
+        run: yarn install
 
       - name: Build
         run:  yarn build
