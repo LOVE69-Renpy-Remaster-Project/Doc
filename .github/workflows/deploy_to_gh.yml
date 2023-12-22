@@ -15,7 +15,8 @@ jobs:
           persist-credentials: false
 
       - name: install
-        run: yarn install 
+        # https://stackoverflow.com/questions/75959563/node-js-err-ossl-evp-unsupported-error-when-running-npm-run-start
+        run: yarn install && export NODE_OPTIONS=--openssl-legacy-provider 
 
       - name: Build
         run:  yarn build
