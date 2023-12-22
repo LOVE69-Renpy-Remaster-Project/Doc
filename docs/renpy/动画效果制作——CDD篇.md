@@ -1,7 +1,7 @@
 ---
 title: 动画效果制作——CDD篇
 date: 2022-06-08 22:41:00
-updated: 2022-06-08 22:41:00
+updated: 2023-12-12 22:48:00
 ---
 
 ::: tip
@@ -212,3 +212,75 @@ image staff = StaffAnimator("staff", "_", 1, 1457, 0.0166666666666667)
 ```
 
 这里的 `$ current_index = 0` 就是把当前播放计数手动置0
+
+### 正式型 叁号机-"LuckyMirai"
+
+感谢知乎[@被诅咒的章鱼](https://zhuanlan.zhihu.com/p/362449324)大佬指点（就是下面评论区的那位大佬哒），上面的做法其实有点儿问题：没有同步更新 SquenceAnimator 和 SquenceAnimator2 类的 show_timebase 成员变量，这里直接放上修改完成的代码供有需要的同学使用，想了解为什么这样修改可以的话可以用本页最顶上的链接（参考资料）查看大佬文章
+
+```python
+######################################################################################
+# CDD Part By WorldlineChanger and Modified By Luckykeeper
+# CDD-自定义可视化组件 定义 STAFF 动画
+# 正式型 叁号机-"LuckyMirai"
+# 解决 SquenceAnimator 和 SquenceAnimator2 类的 show_timebase 成员变量没有同步更新的问题，感谢 知乎@被诅咒的章鱼 大佬指点
+# https://github.com/LOVE69-Renpy-Remaster-Project/Doc/issues/51#issuecomment-1859531366
+
+init python:
+
+    class StaffAnimator(renpy.Displayable):
+
+        # 文件扩展名由Ren'Py预处理,加油捏
+        # 其他3项（前缀 prefix、分隔符 separator、序列帧 begin & end_index）为 StaffAnimator 的3种必备入参
+        # 序列帧应是两个整型入参，或者一个二元元组，分别表示起始帧序列号和结束帧序列号(此处使用2个整型入参)
+        # 用4个入参找到符合规范的一组图片
+        def __init__(self, prefix, separator, begin_index, end_index, interval, loop=False, **kwargs):
+            super(StaffAnimator, self).__init__(**kwargs)
+            # 前缀
+            self.prefix = prefix
+            # 分隔符
+            self.separator = separator
+            # 起始帧序列号
+            self.begin_index = begin_index
+            # 结束帧序列号
+            self.end_index = end_index
+            # 序列帧长度
+            self.length = end_index - begin_index + 1
+
+            # 可视组件列表
+            self.sequence = []
+            for i in range(begin_index, end_index+1):
+                # 将前缀、分隔符和序列号拼接，对应名称的可视组件顺序添加到列表中
+                self.sequence.append(renpy.displayable(self.prefix + self.separator + str(i)))
+
+            # 当前帧在可视组件列表中的索引
+            self.current_index = 0
+            # 关键帧时间轴
+            self.show_timebase = 0
+            # 播放间隔
+            self.interval = interval
+            # 循环播放
+            self.loop = loop
+
+        # 根据时间渲染对应的可视组件
+        def render(self, width, height, st, at):
+            ## st为0时，表示组件重新显示
+            if (st == 0):
+                self.show_timebase = 0
+                self.current_index = 0
+            if ((st) >= (self.show_timebase + self.interval)):
+                self.show_timebase = st
+                self.current_index += 1
+                if self.current_index >= self.length:
+                    if self.loop:
+                        self.current_index = 0  
+                    else:
+                        self.current_index = self.length - 1
+
+            render = renpy.render(self.sequence[self.current_index], width, height, st, at)
+            renpy.redraw(self, 0)
+
+            return render
+
+# 创建实例并使用，序列帧命名规则：【staff_1.webp ~ staff_1457.webp】
+image staff = StaffAnimator("staff", "_", 1, 1457, 0.0166666666666667)
+```
